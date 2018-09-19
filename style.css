@@ -1,6 +1,8 @@
 /* ---- reset ---- */
 html {
   box-sizing: border-box;
+  font-family: Slack-Averta,appleLogo,sans-serif;
+  font-size: 16px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -9,6 +11,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
+
+p {
+  color: #323648;
+  line-height: 1.4
 }
 
 img{
@@ -26,10 +38,10 @@ img{
     overflow: hidden;
     position: fixed;
     width: 100%;
-    left: 0;
+    left: 0%;
     top: 0%;
     background: white;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
   }
   header .nav-bar ul{
     display: none;
@@ -50,4 +62,18 @@ img{
 /*Section*/
   section#descarga{
     margin-top: 80px;
+  }
+
+  section#descripcion {
+    float: left;
+  }
+  section#descripcion .bullet-pictures{
+    width: 120px;
+  }
+
+  section#historias .articulos {
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    float: left;
+    margin: 5px;
   }
