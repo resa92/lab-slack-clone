@@ -36,7 +36,8 @@ img{
 /*Header*/
   header.header{
     overflow: hidden;
-    position: fixed;
+    display: flex;  
+    justify-content: space-between;
     width: 100%;
     left: 0%;
     top: 0%;
@@ -45,27 +46,27 @@ img{
   }
   header .nav-bar ul{
     display: none;
+    margin: 0;
   }
 
   header .slack-logo {
     width: 130px;
-    float: left;
     padding-top: 5px;
   }
   header .burger-menu-icon{
     width: 50px;
-    float: right;
     padding-top: 5px;
   }
 
 
 /*Section*/
   section#descarga{
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   section#descripcion {
-    float: left;
+    display: flex;
+    flex-direction: column;
   }
   section#descripcion .bullet-pictures{
     width: 120px;
